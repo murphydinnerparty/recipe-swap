@@ -1,0 +1,56 @@
+{
+    "Recipes":[
+       {
+        "Meals":[
+            "Breakfast", [
+                "Cheese Omelette",{
+                    "mealImage": "https://www.mrbreakfast.com/images/1135_fluffy_cheese_omelette.jpg",
+                    "ingredients": [
+                        "2 slices ofAmerican Cheese",
+                        "3 Eggs",
+                        "1/4 cup of milk",
+                        "1/4 cup diced onions",
+                        "1 tsbp of olive oil",
+                        "Salt to taste",
+                        "Pepper to taste"
+                    ],
+                    "instructions":[
+                        "Combine eggs, milk, salt, and pepper.",
+                        "Beat egg mixture together completely.",
+                        "Set egg mixture aside. Sauteed onions for three minutes or until slightly transparent.",
+                        "Heat pan on medium and add olive oil. Make sure pan is coated (use a spatula)",
+                        "Add egg mixture. Stir omelette with spatula, evenly coating pan mix. Use spatula to lift up cooked section and maunever pan so mix can cook thoroughly",
+                        "Once egg mixture looks nearly cooked, turn heat low. Add onions and cheese",
+                        "Once cheese is partially melted, fold cooked egg mix in half."
+                    ]
+
+
+                }
+            ],
+            "Lunch", [
+                "Cobb Salad", {
+                "mealImage": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2022/01/cobb-salad-34.jpg",
+                "ingredients": [
+
+                ],
+                "instructions": [
+
+                ]
+            }
+        ],
+            "Dinner",[
+                "Orange Chicken", {
+                    "mealImage": "https://thebigmansworld.com/wp-content/uploads/2022/01/healthy-dinner-ideas.jpeg",
+                    "ingredients": [
+
+                    ],
+                    "instructions": [
+                        
+                    ]
+                }
+            ]
+                
+        ]
+       }
+    ]
+}
