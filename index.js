@@ -15,8 +15,15 @@ function recipeSection (completeRecipe){
         const h2 = document.createElement('h2');
         h2.innerHTML = recipe.meal;
         main.appendChild(h2);
+        const li = document.createElement('li');
+        li.innerHTML = returnIngredients(recipe);
+        main.appendChild(li);
     })
     
+}
+
+function returnIngredients(){
+
 }
 
 function recipeTest() {
