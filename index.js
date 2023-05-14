@@ -1,11 +1,11 @@
 console.log("javascript file connected");
 
 document.addEventListener('DOMContentLoaded', function(){
-    recipeSection(listRecipe);
+    recipetest()
 });
 
-function recipeSection (listRecipe){
-    document.createElement(listRecipe);
+function recipeSection (){
+    
 }
 
 function recipetest() {
