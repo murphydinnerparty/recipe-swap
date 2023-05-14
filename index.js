@@ -1,7 +1,10 @@
 console.log("javascript file connected");
 
 document.addEventListener('DOMContentLoaded', function(){
-    recipetest()
+    const recipeEnter = document.querySelector("#recipe_search");
+    recipeEnter.addEventListener("submit", (event) => {
+        event.preventDefault();
+    })
 });
 
 function recipeSection (){
