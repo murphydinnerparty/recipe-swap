@@ -1,63 +1,27 @@
 {
-    "Recipes":[
-       {
-        "Meals":[
-            "Breakfast", [
-                "Cheese Omelette",{
-                    "mealImage": "https://www.mrbreakfast.com/images/1135_fluffy_cheese_omelette.jpg",
-                    "ingredients": [
-                        "2 slices ofAmerican Cheese",
-                        "3 Eggs",
-                        "1/4 cup of milk",
-                        "1/4 cup diced onions",
-                        "1 tsbp of olive oil",
-                        "Salt to taste",
-                        "Pepper to taste"
-                    ],
-                    "instructions":[
-                        "Combine eggs, milk, salt, and pepper.",
-                        "Beat egg mixture together completely.",
-                        "Set egg mixture aside. Sauteed onions for three minutes or until slightly transparent.",
-                        "Heat pan on medium and add olive oil. Make sure pan is coated (use a spatula)",
-                        "Add egg mixture. Stir omelette with spatula, evenly coating pan mix. Use spatula to lift up cooked section and maunever pan so mix can cook thoroughly",
-                        "Once egg mixture looks nearly cooked, turn heat low. Add onions and cheese",
-                        "Once cheese is partially melted, fold cooked egg mix in half."
-                    ]
-
-
-                }
+    "Recipes": [
+        {
+            "id": "1",
+            "meal": "Cheese Omelette",
+            "alternateMeal": [
+                "Vegan Cheese Omelette",
+                "Cheese and Veggie Omelette"
             ],
-            "Lunch", [
-                "Cobb Salad", {
-                "mealImage": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2022/01/cobb-salad-34.jpg",
-                "ingredients": [
-                    "1 head of Romaine lettuce",
-                    "1 tomato",
-                    "1/4 cup of chopped Colby Jack cheese",
-                    "1/4 cup of chopped ham",
-                    "3 boiled eggs",
-                    "Salt to taste",
-                    "Pepper to taste"
-
-                ],
-                "instructions": [
-
-                ]
-            }
-        ],
-            "Dinner",[
-                "Orange Chicken", {
-                    "mealImage": "https://thebigmansworld.com/wp-content/uploads/2022/01/healthy-dinner-ideas.jpeg",
-                    "ingredients": [
-
-                    ],
-                    "instructions": [
-                        
-                    ]
-                }
-            ]
-                
-        ]
-       }
+            "mainIngredients": [
+                "2 large eggs", 
+                "Pinch of salt",
+                "1 tablespoon butter separated",
+                "2 tablespoons cheddar cheese"
+            ],
+            "alternateIngredients": [
+                "7.5 grams firm silken tofu", 
+                "¼ turmeric", 
+                "¼ tsp ground garlic granules", salt to taste, kala namak (black salt), 3 Tbsp nutritional yeast, ¾ soy milk, ¾ cashew milk, ¾ almond milk, ¾ cream of coconut, ¾ coconut milk, 1 heaping tsp of tahini, 1 ½ cup of white flour, 1 tbsp of chickpea/gram flour, ½ cup chopped onions, ½ cup sliced mushrooms, 2 slices vegan cheese, 1 cup of vegan parmesan, 2 handfuls of spinach],
+            "instructions": [Crack the eggs into a medium-sized bowl. Whisk the eggs together until combined., Add a pinch of salt to the eggs and whisk again. Set aside., Heat an 8-inch nonstick skillet over medium heat. Add ½ tablespoon butter., Do not mix the eggs in the pan and allow a curd to form for 10-15 seconds. Then using a spatula, carefully lift the edge of the omelette and push the large curds that begin to form towards the middle of the pan, allowing the raw egg to take its place and cook., Sprinkle the cheese over the omelette., Once the egg is mostly cooked and the cheese is melted (if you like your eggs more wet, flip the omelette sooner) take a spatula and flip half of the omelette over itself. Allow the omelette to cook for an additional 30 seconds., Add the rest of the butter to the pan and run it along the spine of the omelette., Carefully shake the pan to loosen the omelette from the pan and tip the pan and allow the omelette to slip off onto a plate., Top with optional garnish and enjoy.],
+            "alternativeInstructions": [Blend all ingredients using electric hand blender or food processor., Next, in a non-stick pan, heat up a very small amount of oil. When it’s hot, pour  a ladle of the omelette mix/batter into the pan, and allow to settle for a few seconds. Whirl it around at the outset so that it is evenly distributed, then, within a few seconds, place the equivalent of one slice of cheese (the ones you have already cut up in squares) –  these will most likely begin to ‘melt’ within a minute or so.],
+            "tips": [Kala namak (black salt) can be found in Indian grocery store., Nutritional yeast is a great replacement for a cheese taste!, Add onions or mushrooms for a more hearty taste! ],
+            "credit":  "Original recipe from <a href = “https://cheeseknees.com/cheese-omelette-recipe/>The Cheese Knees</a>"
+              
+        }
     ]
 }
