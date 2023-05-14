@@ -9,13 +9,21 @@ document.addEventListener('DOMContentLoaded', function(){
     recipeEnter.reset();
 });
 
-function recipeSection (){
+function recipeSection (completeRecipe){
+    const main = document.getElementById('Recipe 1');
+    completeRecipe.forEach(recipe => {
+        const h2 = document.createElement('h2');
+        h2.innerHTML = recipe.meal;
+        main.appendChild(h2);
+    })
     
 }
 
 function recipeTest() {
-        fetch ('http://localhost:3000/Recipes')
+
+    const recipeArray = fetch ('http://localhost:3000/Recipes')
         .then(resp => resp.json())
-        .then(json =>console.log(json[0].meal))
+        .then(json => recipeSection(json))
+    return recipeArray
 }
 
