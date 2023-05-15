@@ -1,131 +1,134 @@
 {
-    "Recipes": [
-        {
-            "id": "1",
-            "meal": "Cheese Omelette",
-            "alternateMeal": [
-                "Vegan Cheese Omelette",
-                "Cheese and Veggie Omelette"
-            ],
-            "mainIngredients": [
-                "2 large eggs", 
-                "Pinch of salt",
-                "1 tablespoon butter separated",
-                "2 tablespoons cheddar cheese"
-            ],
-            "alternateIngredients": [
-                "7.5 grams firm silken tofu", 
-                "¼ turmeric", 
-                "¼ tsp ground garlic granules",
-                "salt to taste",
-                "kala namak (black salt)",
-                "3 Tbsp nutritional yeast",
-                "¾ soy milk",
-                "¾ cashew milk", 
-                "¾ almond milk",
-                "¾ cream of coconut",
-                "¾ coconut milk",
-                "1 heaping tsp of tahini",
-                "1 ½ cup of white flour",
-                "1 tbsp of chickpea/gram flour",
-                "½ cup chopped onions",
-                "½ cup sliced mushrooms",
-                "2 slices vegan cheese",
-                "1 cup of vegan parmesan",
-                "2 handfuls of spinach"
-            ],
-            "instructions": [
-                "Crack the eggs into a medium-sized bowl. Whisk the eggs together until combined.",
-                "Add a pinch of salt to the eggs and whisk again. Set aside.",
-                "Heat an 8-inch nonstick skillet over medium heat. Add ½ tablespoon butter.", 
-                "Do not mix the eggs in the pan and allow a curd to form for 10-15 seconds.", 
-                "Then using a spatula, carefully lift the edge of the omelette and push the large curds that begin to form towards the middle of the pan, allowing the raw egg to take its place and cook.", 
-                "Sprinkle the cheese over the omelette.", 
-                "Once the egg is mostly cooked and the cheese is melted (if you like your eggs more wet, flip the omelette sooner) take a spatula and flip half of the omelette over itself. Allow the omelette to cook for an additional 30 seconds.", 
-                "Add the rest of the butter to the pan and run it along the spine of the omelette.", 
-                "Carefully shake the pan to loosen the omelette from the pan and tip the pan and allow the omelette to slip off onto a plate.",
-                "Top with optional garnish and enjoy."
-            ],
-            "alternativeInstructions": [
-                "Blend all ingredients using electric hand blender or food processor.",
-                "Next, in a non-stick pan, heat up a very small amount of oil.",
-                "When it`s hot, pour  a ladle of the omelette mix/batter into the pan, and allow to settle for a few seconds.", 
-                "Whirl it around at the outset so that it is evenly distributed",
-                "Then, within a few seconds, place the equivalent of one slice of cheese (the ones you have already cut up in squares) these will most likely begin to `melt` within a minute or so."
-            ],
-            "tips": [
-                "Kala namak (black salt) can be found in Indian grocery store.",
-                "Nutritional yeast is a great replacement for a cheese taste!", 
-                "Add onions or mushrooms for a more hearty taste!"
-            ],
-            "credit":  "Original recipe from <a href = “https://cheeseknees.com/cheese-omelette-recipe/>The Cheese Knees</a>",
-            "recipeImage": "./assets/cheeseomelette.jpg"
-        },
-
-        {
-            "id": 2,
-            "meal": "Buttermilk Pancakes",
-            "alternateMeal": [
-                "Vegan Pancakes", 
-                "Strawberry and Banana Pancakes", 
-                "Strawberry Pancakes"
-            ],
-            "mainIngredients": [
-                "2 cups all-purpose flour", 
-                "3 tablespoons sugar", 
-                "1 ½ teaspoons baking powder", 
-                "1 ½ teaspoons baking soda", 
-                "1¼ teaspoons kosher salt", 
-                "2½ cups buttermilk", 
-                "2 large eggs", 
-                "3 tablespoons unsalted butter, melted", 
-                "Vegetable, canola or coconut oil for the pan"
-            ],
-            "alternateIngredients": [
-                "1 ½ cups All Purpose Flour", 
-                "2 teaspoon Baking Powder", 
-                "½ teaspoon Salt", 
-                "1 Banana Overripe", 
-                "1 tablespoon Sugar", 
-                "3 tablespoon Butter Melted", 
-                "1 Egg", 
-                "1 teaspoon Vanilla Extract", 
-                "1 ½ cups Whole Milk", 
-                "1 cup Strawberries Chopped", 
-                "1 cup flour", 
-                "2 tablespoons organic sugar", 
-                "1 tablespoon baking powder", 
-                "1 cup soy milk", 
-                "1 cup cashew milk", 
-                "1 cup almond milk", 
-                "1 cup cream of coconut", 
-                "1 tablespoon apple cider vinegar"
-            ],
-            "instructions":[ 
-                "Whisk flour, sugar, baking powder, baking soda and kosher salt together in a bowl and make a well in the center.", 
-                "Pour the buttermilk into the well and crack eggs into buttermilk.", 
-                "Pour the melted butter into the mixture.", 
-                "Starting in the center, whisk everything together, moving towards the outside of the bowl, until all ingredients are incorporated.", 
-                "Do not overbeat (lumps are fine).", 
-                "Add 1 tablespoon oil to the skillet and turn heat up to medium or low.", 
-                "Using a measuring cup, ladle ⅓ cup batter into the skillet.", 
-                "Flip pancakes after bubbles rise to surface and bottoms brown about 2 to 4 minutes.", 
-                "Cook until the other sides are lightly browned."
-            ], 
-            "alternateInstructions": [
-                "In a large bowl, mash the banana and add melted butter, sugar, and vanilla extract. Mix well.", 
-                "Cut bananas in small pieces and add to batter.", 
-                "Cut strawberries in small pieces and add to batter.", 
-                "In a bowl, add non-dairy milk of choice, apple cider vinegar, and vanilla. Stir to combine."
-            ],
-            "tips": [
-                "Adding strawberries and bananas gives the pancakes a fruit kick!", 
-                "You don't need eggs to make pancake batter at all! There are alternate vegan options (apple cider vinegar helps!)", 
-                "Vanilla extract is a nice edition and really help the pancakes get tasty!"
-            ],
-            "credit": "Original recipe from <a href= “https://cooking.nytimes.com/recipes/1018180-perfect-buttermilk-pancakes”>NY Times | Cooking</a>",
-            "recipeImage": "./assets/pancakes.jpg"
-
-        }
-    ]
+  "Recipes": [
+    {
+      "id": "1",
+      "meal": "Cheese Omelette",
+      "alternateMeal": [
+        "Vegan Cheese Omelette",
+        "Cheese and Veggie Omelette"
+      ],
+      "mainIngredients": [
+        "2 large eggs",
+        "Pinch of salt",
+        "1 tablespoon butter separated",
+        "2 tablespoons cheddar cheese"
+      ],
+      "alternateIngredients": [
+        "7.5 grams firm silken tofu",
+        "¼ turmeric",
+        "¼ tsp ground garlic granules",
+        "salt to taste",
+        "kala namak (black salt)",
+        "3 Tbsp nutritional yeast",
+        "¾ soy milk",
+        "¾ cashew milk",
+        "¾ almond milk",
+        "¾ cream of coconut",
+        "¾ coconut milk",
+        "1 heaping tsp of tahini",
+        "1 ½ cup of white flour",
+        "1 tbsp of chickpea/gram flour",
+        "½ cup chopped onions",
+        "½ cup sliced mushrooms",
+        "2 slices vegan cheese",
+        "1 cup of vegan parmesan",
+        "2 handfuls of spinach"
+      ],
+      "instructions": [
+        "Crack the eggs into a medium-sized bowl. Whisk the eggs together until combined.",
+        "Add a pinch of salt to the eggs and whisk again. Set aside.",
+        "Heat an 8-inch nonstick skillet over medium heat. Add ½ tablespoon butter.",
+        "Do not mix the eggs in the pan and allow a curd to form for 10-15 seconds.",
+        "Then using a spatula, carefully lift the edge of the omelette and push the large curds that begin to form towards the middle of the pan, allowing the raw egg to take its place and cook.",
+        "Sprinkle the cheese over the omelette.",
+        "Once the egg is mostly cooked and the cheese is melted (if you like your eggs more wet, flip the omelette sooner) take a spatula and flip half of the omelette over itself. Allow the omelette to cook for an additional 30 seconds.",
+        "Add the rest of the butter to the pan and run it along the spine of the omelette.",
+        "Carefully shake the pan to loosen the omelette from the pan and tip the pan and allow the omelette to slip off onto a plate.",
+        "Top with optional garnish and enjoy."
+      ],
+      "alternativeInstructions": [
+        "Blend all ingredients using electric hand blender or food processor.",
+        "Next, in a non-stick pan, heat up a very small amount of oil.",
+        "When it`s hot, pour  a ladle of the omelette mix/batter into the pan, and allow to settle for a few seconds.",
+        "Whirl it around at the outset so that it is evenly distributed",
+        "Then, within a few seconds, place the equivalent of one slice of cheese (the ones you have already cut up in squares) these will most likely begin to `melt` within a minute or so."
+      ],
+      "tips": [
+        "Kala namak (black salt) can be found in Indian grocery store.",
+        "Nutritional yeast is a great replacement for a cheese taste!",
+        "Add onions or mushrooms for a more hearty taste!"
+      ],
+      "credit": "Original recipe from <a href = “https://cheeseknees.com/cheese-omelette-recipe/>The Cheese Knees</a>",
+      "recipeImage": "./assets/cheeseomelette.jpg"
+    },
+    {
+      "id": 2,
+      "meal": "Buttermilk Pancakes",
+      "alternateMeal": [
+        "Vegan Pancakes",
+        "Strawberry and Banana Pancakes",
+        "Strawberry Pancakes"
+      ],
+      "mainIngredients": [
+        "2 cups all-purpose flour",
+        "3 tablespoons sugar",
+        "1 ½ teaspoons baking powder",
+        "1 ½ teaspoons baking soda",
+        "1¼ teaspoons kosher salt",
+        "2½ cups buttermilk",
+        "2 large eggs",
+        "3 tablespoons unsalted butter, melted",
+        "Vegetable, canola or coconut oil for the pan"
+      ],
+      "alternateIngredients": [
+        "1 ½ cups All Purpose Flour",
+        "2 teaspoon Baking Powder",
+        "½ teaspoon Salt",
+        "1 Banana Overripe",
+        "1 tablespoon Sugar",
+        "3 tablespoon Butter Melted",
+        "1 Egg",
+        "1 teaspoon Vanilla Extract",
+        "1 ½ cups Whole Milk",
+        "1 cup Strawberries Chopped",
+        "1 cup flour",
+        "2 tablespoons organic sugar",
+        "1 tablespoon baking powder",
+        "1 cup soy milk",
+        "1 cup cashew milk",
+        "1 cup almond milk",
+        "1 cup cream of coconut",
+        "1 tablespoon apple cider vinegar"
+      ],
+      "instructions": [
+        "Whisk flour, sugar, baking powder, baking soda and kosher salt together in a bowl and make a well in the center.",
+        "Pour the buttermilk into the well and crack eggs into buttermilk.",
+        "Pour the melted butter into the mixture.",
+        "Starting in the center, whisk everything together, moving towards the outside of the bowl, until all ingredients are incorporated.",
+        "Do not overbeat (lumps are fine).",
+        "Add 1 tablespoon oil to the skillet and turn heat up to medium or low.",
+        "Using a measuring cup, ladle ⅓ cup batter into the skillet.",
+        "Flip pancakes after bubbles rise to surface and bottoms brown about 2 to 4 minutes.",
+        "Cook until the other sides are lightly browned."
+      ],
+      "alternateInstructions": [
+        "In a large bowl, mash the banana and add melted butter, sugar, and vanilla extract. Mix well.",
+        "Cut bananas in small pieces and add to batter.",
+        "Cut strawberries in small pieces and add to batter.",
+        "In a bowl, add non-dairy milk of choice, apple cider vinegar, and vanilla. Stir to combine."
+      ],
+      "tips": [
+        "Adding strawberries and bananas gives the pancakes a fruit kick!",
+        "You don't need eggs to make pancake batter at all! There are alternate vegan options (apple cider vinegar helps!)",
+        "Vanilla extract is a nice edition and really help the pancakes get tasty!"
+      ],
+      "credit": "Original recipe from <a href= “https://cooking.nytimes.com/recipes/1018180-perfect-buttermilk-pancakes”>NY Times | Cooking</a>",
+      "recipeImage": "./assets/pancakes.jpg"
+    },
+    {
+      "meal": "Chicken Noodle Soup",
+      "credit": "https://tastesbetterfromscratch.com/chicken-noodle-soup/",
+      "id": 3
+    }
+  ]
 }

@@ -7,27 +7,33 @@ document.addEventListener('DOMContentLoaded', function(){
         recipeTest()
     })
     recipe.reset();
-});
-
-document.getElementById()
-
-function formRecipe(event){ 
+    const recipeToAdd = document.querySelector("#enterRec");
+    recipeToAdd.addEventListener("submit", (event) => { 
     event.preventDefault();
-    let newRecipe = {
+    let newAddRecipe = {
         meal: event.target.recipe.value,
         credit: event.target.website.value,
     }
-    newRecipe(newRecipe)
-}
+    newRecipe(newAddRecipe)
+});
+});
 
-function newRecipe(recipeEntry){
-    const recipeForm = 
+
+
+
+
+function newRecipe(newAddRecipe){
+
+     const recipeForm = 
         fetch ('http://localhost:3000/Recipes', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
-            }
+            },
+            body: JSON.stringify(newAddRecipe)
         })
+        .then(response => response.json())
+        .then(recipe => console.log(recipe))
 }
 
 function recipeFilter(){
