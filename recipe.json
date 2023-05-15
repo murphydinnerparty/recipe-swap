@@ -59,7 +59,7 @@
                 "Add onions or mushrooms for a more hearty taste!"
             ],
             "credit":  "Original recipe from <a href = “https://cheeseknees.com/cheese-omelette-recipe/>The Cheese Knees</a>",
-            "recipeImage": "<img src= `./assets/cheeseomelette.jpg`>" 
+            "recipeImage": "./assets/cheeseomelette.jpg"
         },
 
         {
@@ -124,7 +124,7 @@
                 "Vanilla extract is a nice edition and really help the pancakes get tasty!"
             ],
             "credit": "Original recipe from <a href= “https://cooking.nytimes.com/recipes/1018180-perfect-buttermilk-pancakes”>NY Times | Cooking</a>",
-            "recipeImage": "<img src= 'https://cheeseknees.com/wp-content/uploads/2021/09/Cheese-Omelette-1-650x975.jpg'>"
+            "recipeImage": "./assets/cheeseomelette.jpg"
 
         }
     ]

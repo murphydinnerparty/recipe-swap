@@ -17,17 +17,14 @@ function recipeSection (completeRecipe){
     const main = document.getElementById('recipeContainer');
     completeRecipe.forEach(recipe => {
         const recipeCard = document.createElement('div');
-        /**recipeCard.class = 'recipes';
+        recipeCard.class = 'recipes';
         const h2 = document.createElement('h2');
         h2.innerHTML = recipe.meal;
         const li = document.createElement('li');
-        li.innerHTML = returnIngredients(recipe);
-        recipeCard.append(h2,li);**/
-        
-        
+        li.innerHTML = recipe.mainIngredients;
         const img = document.createElement('img')
         img.src = recipe.recipeImage
-        recipeCard.appendChild(img)
+        recipeCard.append(h2,li,img);
         main.append(recipeCard);
     })
     
