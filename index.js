@@ -9,8 +9,28 @@ document.addEventListener('DOMContentLoaded', function(){
     recipe.reset();
 });
 
-function recipeFilter(chooseRecipe){
-    const recipeChoice = chooseRecipe.filter()
+document.getElementById()
+
+function formRecipe(event){ 
+    event.preventDefault();
+    let newRecipe = {
+        meal: event.target.recipe.value,
+        credit: event.target.website.value,
+    }
+    newRecipe(newRecipe)
+}
+
+function newRecipe(recipeEntry){
+    const recipeForm = 
+        fetch ('http://localhost:3000/Recipes', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+}
+
+function recipeFilter(){
 }
 
 function recipeSection (completeRecipe){
