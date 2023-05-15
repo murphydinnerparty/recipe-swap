@@ -129,6 +129,11 @@
       "meal": "Chicken Noodle Soup",
       "credit": "https://tastesbetterfromscratch.com/chicken-noodle-soup/",
       "id": 3
+    },
+    {
+      "meal": "Beef Chili",
+      "credit": "https://www.thewholesomedish.com/the-best-classic-chili/",
+      "id": 4
     }
   ]
 }
