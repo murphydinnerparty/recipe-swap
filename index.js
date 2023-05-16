@@ -1,12 +1,56 @@
 console.log("javascript file connected");
-document.getElementById("recipe").addEventListener("submit", recipeList);
 
-function recipeList(event){
-    event.preventDefault();
-    console.log('This is a test');
+document.getElementById('recipe').addEventListener('submit', (e) => {
+    e.preventDefault()
+    console.log('Help')
+    fetchRecipeList()
+    }
+)
+
+function addRecipe(array){
+   const recipeSection = document.getElementById('recipeContainer')
+   array.forEach(recipeInfo => {
+     const recipeCard = document.createElement('div')
+     const recipeTitle = document.createElement('h2')
+     const recipeImg = document.createElement('img')
+
+    recipeCard.class = 'recipes'
+    recipeTitle.textContent = recipeInfo.meal
+    const recipeList = recipeInfo.mainIngredients
+    const recipeInstructions = recipeInfo.instructions
+    const ingredientList = document.createElement('ul')
+    const instructionList = document.createElement('ol')
+
+    recipeInstructions.forEach(instructions => {
+        const li = document.createElement('li')
+        li.textContent = instructions
+        instructionList.append(li)
+    })
+
+    recipeList.forEach(ingredients => {
+        const li = document.createElement('li')
+        li.textContent = ingredients;
+        ingredientList.append(li)
+    })
+
+    recipeImg.src = recipeInfo.recipeImage
+
+    recipeCard.append(recipeImg, recipeTitle, ingredientList, instructionList)
+
+    recipeSection.append(recipeCard)
+   })
 }
 
-/** document.addEventListener('DOMContentLoaded', function(){
+function fetchRecipeList(){
+  fetch('http://localhost:3000/Recipes')
+    .then(resp => resp.json())
+    .then(json => {
+        console.log(json);
+        addRecipe(json)
+    })
+}
+
+/**document.addEventListener('DOMContentLoaded', function(){
     const recipe = document.getElementById("recipe");
     recipe.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -22,13 +66,13 @@ function recipeList(event){
     }
     newRecipe(newAddRecipe)
     });
-});**/
+});
 
 
 
 
 
-/**function newRecipe(newAddRecipe){
+function newRecipe(newAddRecipe){
         fetch ('http://localhost:3000/Recipes', {
             method: 'POST',
             headers: {
